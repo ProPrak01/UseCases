@@ -1,0 +1,11 @@
+.Home{
+    height: 70vh;
+    width: 100%;
+    background-color: beige;
+
+}
+
+.home-h1{
+    text-align: center;
+    margin: auto;
+}
