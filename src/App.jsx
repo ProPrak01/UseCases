@@ -22,7 +22,7 @@ function App() {
  
 
   return (
-   <div className="container">  
+   <div className="container poppins-regular ">  
        <Header/>
         <Routes>
         <Route exact path="/" Component={Home}/>

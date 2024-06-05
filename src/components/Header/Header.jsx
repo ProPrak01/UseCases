@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-
+import ai from '../../assets/ai.jpg'
+import logo from '../../assets/LOGO.webp';
 const Header = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
 
@@ -11,8 +12,9 @@ const Header = () => {
 
   return (
     <header className="header">
+  
       <div className="logo">
-        <img src="path-to-your-logo.png" alt="Learning Spiral" />
+        <img src={logo} alt="Learning Spiral" />
       </div>
       <nav className="nav-links">
         <Link to="/">Home</Link>
@@ -40,6 +42,9 @@ const Header = () => {
       <div className="cta-button">
         <button>Call Us Now</button>
       </div>
+      <div className="bgimage">
+      <img src={ai} alt="" />
+    </div>
     </header>
   );
 };
