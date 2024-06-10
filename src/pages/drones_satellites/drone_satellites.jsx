@@ -1,12 +1,11 @@
 import React from 'react'
-import face_recognition from '../../assets/ds.jpg'
-import face_recognition2 from '../../assets/ds2.jpg'
+
 const Drone_satellites = () => {
   return (
     <div className="recognition-container">
   <div className="image-section">
-    <img className='img1 imgsec' src={face_recognition} alt="Facial Recognition" />
-    <img className='img2 imgsec' src={face_recognition2} alt="Facial Recognition" />
+    <img className='img1 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017096/ds_kbihvi.jpg" alt="Facial Recognition" />
+    <img className='img2 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017083/ds2_fbajvy.jpg" alt="Facial Recognition" />
 
   </div>
   <div className="text-section">

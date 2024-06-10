@@ -1,14 +1,13 @@
 import React from 'react'
 import './facial_recognition.css'
-import face_recognition from '../../assets/face_recognition.jpg'
-import face_recognition2 from '../../assets/face3.jpg'
+
 
 const Facial_recognition = () => {
   return (
   <div className="recognition-container">
   <div className="image-section">
-    <img className='img1 imgsec' src={face_recognition} alt="Facial Recognition" />
-    <img className='img2 imgsec' src={face_recognition2} alt="Facial Recognition" />
+    <img className='img1 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017078/face_recognition_dgyqco.jpg" alt="Facial Recognition" />
+    <img className='img2 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017077/face3_qplgep.jpg" alt="Facial Recognition" />
 
   </div>
   <div className="text-section">

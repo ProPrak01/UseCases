@@ -1,13 +1,13 @@
 import React from 'react'
-import face_recognition from '../../assets/sa1.jpg'
-import face_recognition2 from '../../assets/sa2.jpg'
+
+
 
 const Sports_annotation = () => {
   return (
     <div className="recognition-container">
   <div className="image-section">
-    <img className='img1 imgsec' src={face_recognition} alt="Facial Recognition" />
-    <img className='img2 imgsec' src={face_recognition2} alt="Facial Recognition" />
+    <img className='img1 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017116/sa1_i9cqel.jpg" alt="Facial Recognition" />
+    <img className='img2 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017826/sa2_xafvwp.jpg" alt="Facial Recognition" />
 
   </div>
   <div className="text-section">

@@ -1,13 +1,12 @@
 import React from 'react'
-import face_recognition from '../../assets/sdc1.jpg'
-import face_recognition2 from '../../assets/sdc2.jpg'
+
 
 const Self_driving_cars = () => {
   return (
     <div className="recognition-container">
   <div className="image-section">
-    <img className='img1 imgsec' src={face_recognition} alt="Facial Recognition" />
-    <img className='img2 imgsec' src={face_recognition2} alt="Facial Recognition" />
+    <img className='img1 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017108/sdc1_rxdmcj.jpg" alt="Facial Recognition" />
+    <img className='img2 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017106/sdc2_kpqi77.jpg" alt="Facial Recognition" />
 
   </div>
   <div className="text-section">

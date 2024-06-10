@@ -1,13 +1,12 @@
 import React from 'react'
-import face_recognition from '../../assets/vm1.jpg'
-import face_recognition2 from '../../assets/vm2.jpg'
+
 
 const Video_motion_tracking = () => {
   return (
     <div className="recognition-container">
   <div className="image-section">
-    <img className='img1 imgsec' src={face_recognition} alt="Facial Recognition" />
-    <img className='img2 imgsec' src={face_recognition2} alt="Facial Recognition" />
+    <img className='img1 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017105/vm1_aspfec.jpg" alt="Facial Recognition" />
+    <img className='img2 imgsec' src="https://res.cloudinary.com/dv9m6ghqf/image/upload/v1718017100/vm2_a5gzeu.jpg" alt="Facial Recognition" />
 
   </div>
   <div className="text-section">
