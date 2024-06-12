@@ -9,12 +9,6 @@
   }
 
 
-  @media (max-width: 1200px) {
-    .recognition-container {
-      flex-flow:column;
-      min-height: 200vh;
-    }
-  }
 
   .image-section{
    
@@ -59,11 +53,10 @@
     width: 50%;
     /* height: 80vh; */
   }
-  @media screen and (min-device-aspect-ratio: 16/9) {
-    .head{
-      font-size: 2rem;
-    }
-  }
+
+ 
+
+  
   .text-section h2 {
     font-size: 28%;
     margin-bottom: 10px;
@@ -83,9 +76,27 @@
     font-weight: 800;
     color: #5a5a5a;
     margin-bottom: 2vh;
-
-        
+      
   }
+  @media (max-width: 1200px) {
+    .recognition-container {
+      flex-flow:column;
+      min-height: 200vh;
+    }
+    .head{
+      font-size: 1rem;
+
+    }
+    .img2{
+      max-width: 100%;
+      left:0%
+    }
+    .img1{
+      max-width: 100%;
+      
+    }
+  }
+
   .Pcontent{
    
     border: 3px solid rgb(154, 154, 154);
